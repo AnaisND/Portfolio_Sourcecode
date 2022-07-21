@@ -1,4 +1,6 @@
 @import url("home.css");
+@import url("aboutme.css");
+@import url("mywork.css");
 
 :root {
     --w: #fff;
