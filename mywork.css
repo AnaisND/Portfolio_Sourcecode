@@ -1,30 +1,15 @@
-:root {
-    --w: #fff;
-    --b: #000;
-    --g1: #65737e;
-    --g2: #4f5b66;
-    --be: #F5F5DC;
-}
-
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--b);
-}
-
 .bar-container {
     width: 100%;
-    background-color: var(--b);
+    background-image:url("https://assets1.ello.co/uploads/asset/attachment/4733814/ello-optimized-139fa301.gif"); 
+    background-repeat:repeat;
+    margin-top: -150px;
 }
 
 .bar-content {
     display: grid;
     grid-template-columns: 0fr auto 0.25fr;
     align-items: center;
-    height: 650px;
+    height: 750px;
     width:100%;
     max-width: 1720px;
     margin: 0 auto;
@@ -41,10 +26,10 @@
 
 .bar-btn {
     color: var(--be);
-    background-color: var(--be);
-    color: var(--b);
     padding: 6px 16px;
     border-radius: 20px;
+    border-color: var(--be);
+    
     text-decoration: none;
 }
 
