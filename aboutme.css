@@ -1,0 +1,56 @@
+:root {
+    --w: #fff;
+    --b: #000;
+    --g1: #65737e;
+    --g2: #4f5b66;
+    --be: #F5F5DC;
+}
+
+* {
+    background-color: var(--be);
+    font-family: 'Roboto', sans-serif;
+}
+
+.abtme-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: var(--be);
+}
+
+.abtme-content {
+    justify-self: start;
+    margin-left: 10px;
+    background-color: var(--be);
+    color: var(--b);
+    width: 90%;
+}
+
+.abtme-content h1 {
+    font-size: 1rem;
+    text-align: center;
+    width:100%;
+}
+
+.abtme-content p {
+    margin: -10px;
+    font-size: 0.99rem;
+    width: 100%;
+    text-decoration: underline var(--b);
+}
+
+
+
+.abtme-img-container {
+    text-align: center;
+    border: 3px solid var(--b);
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 11px;
+    
+}
